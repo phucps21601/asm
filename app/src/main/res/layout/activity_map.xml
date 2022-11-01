@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#964B00"
+    tools:context=".views.MapActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+         android:gravity="center"
+        android:layout_marginTop="150dp"
+        >
+        <Button
+            android:id="@+id/btnHCM"
+            android:background="@drawable/button_custom"
+            android:text="TPHCM"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnHaNoi"
+            android:background="@drawable/button_custom"
+            android:text="Hà Nội"
+            android:layout_marginLeft="30dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <Button
+            android:id="@+id/btnDaNang"
+            android:background="@drawable/button_custom"
+            android:text="Đà Nẵng"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btnTayNguyen"
+            android:background="@drawable/button_custom"
+            android:text="Tây Nguyên"
+            android:layout_marginLeft="30dp"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        >
+        <Button
+            android:id="@+id/btnCanTho"
+            android:background="@drawable/button_custom"
+            android:text="Cần Thơ"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

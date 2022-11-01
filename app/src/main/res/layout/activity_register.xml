@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud"
+    tools:context=".views.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/imgpoly"
+        />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ĐĂNG KÝ"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#af0b0f"
+        />
+    <TextView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="EMAIL"
+        android:textColor="#ff4500"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:id="@+id/edtEmail"
+        />
+    <TextView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="PASSWORD"
+        android:textColor="#ff4500"
+        />
+
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:textSize="20dp"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="ROLE"
+        android:textColor="#ff4500"
+        />
+    <Spinner
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spnView"
+        />
+    <Button
+        android:background="@drawable/button_custom"
+        android:id="@+id/btnRegister"
+        android:text="ĐĂNG KÝ"
+        android:layout_marginTop="20dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+
+
+
+</LinearLayout>

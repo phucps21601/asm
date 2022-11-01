@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d3af37"
+    tools:context=".views.UpdateCourseActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cập nhật khóa học"
+        android:textSize="35dp"
+        android:textColor="#480607"
+        android:gravity="center"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtUpdateMaMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Mã môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtUpdateTenMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Tên môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtUpdateThoigianMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Thời gian môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtUpdatePhongMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Phòng môn học"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/button_custom"
+            android:id="@+id/btnCapnhat"
+            android:layout_marginLeft="30dp"
+            android:text="Cập nhật"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/button_custom"
+            android:id="@+id/btnUpdateHuymonhoc"
+            android:layout_marginLeft="30dp"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

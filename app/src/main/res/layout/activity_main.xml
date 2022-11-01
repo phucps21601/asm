@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".views.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/btnCourse"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/course" />
+
+        <ImageButton
+            android:id="@+id/btnMap"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/map" />
+
+        <ImageButton
+            android:id="@+id/btnNews"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/news" />
+
+        <ImageButton
+            android:id="@+id/btnSocial"
+            android:layout_width="250dp"
+            android:layout_height="160dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/social" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Course"
+            android:textColor="#d82521"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#d82521"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Map" />
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#d82521"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="News" />
+
+        <TextView
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#d82521"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:text="Social" />
+    </LinearLayout>
+    <Button
+        android:text="Logout"
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#e8f48c"
+    android:layout_height="match_parent"
+    tools:context=".views.InsertCourseActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm khóa học"
+        android:textSize="35dp"
+        android:textColor="#480607"
+        android:gravity="center"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtMaMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Mã môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtTenMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Tên môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtThoigianMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Thời gian môn học"
+        />
+    <EditText
+        android:background="@drawable/edittext_custom"
+        android:id="@+id/txtPhongMon"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:hint="Phòng môn học"
+        />
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/button_custom"
+            android:id="@+id/btnThemmonhoc"
+            android:layout_marginLeft="30dp"
+            android:text="Thêm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:background="@drawable/button_custom"
+            android:id="@+id/btnHuymonhoc"
+            android:layout_marginLeft="30dp"
+            android:text="Hủy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>
